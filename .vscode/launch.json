@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "QSharpHelloWorld",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/QSharpHelloWorld/bin/Debug/netcoreapp3.0/QSharpHelloWorld.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/QSharpHelloWorld",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "QubitMemory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildMemory",
+            "program": "${workspaceFolder}/QubitMemory/bin/Debug/netcoreapp3.0/QubitMemory.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/QubitMemory",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
