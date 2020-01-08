@@ -11,7 +11,7 @@ namespace QubitMemory
         {
             using (var qsim = new QuantumSimulator())
             {
-                int count = 35;
+                int count = 29;
                 double[] m = new double[count];
                 for (int i=0; i<count; i++)
                 {
