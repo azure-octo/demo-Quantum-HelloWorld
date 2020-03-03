@@ -1,0 +1,16 @@
+{ 
+    // Install ESLint and Peacock extensions
+    "extensions": [
+      "quantum.quantum-devkit-vscode"
+    ],
+
+    
+  
+    // Set remote color for Peacock
+    "settings": {
+        "extensions.ignoreRecommendations": true
+    },
+  
+    // Run Bash script in .devcontainer directory
+    "postCreateCommand": "quantum.installTemplates",
+  }
