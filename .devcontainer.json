@@ -12,5 +12,5 @@
     },
   
     // Run Bash script in .devcontainer directory
-    "postCreateCommand": "quantum.installTemplates",
+    "postCreateCommand": "dotnet new -i Microsoft.Quantum.ProjectTemplates",
   }
