@@ -1,17 +1,10 @@
 { 
-    // Install ESLint and Peacock extensions
-    "extensions": [
-      "quantum.quantum-devkit-vscode",
-      "ms-dotnettools.csharp"
-    ],
-
-    
-  
-    // Set remote color for Peacock
-    "settings": {
-        "extensions.ignoreRecommendations": true
-    },
-  
-    // Run Bash script in .devcontainer directory
-    "postCreateCommand": "dotnet new -i Microsoft.Quantum.ProjectTemplates",
-  }
+  "extensions": [
+    "quantum.quantum-devkit-vscode",
+    "ms-dotnettools.csharp"
+  ],
+  "settings": {
+    "extensions.ignoreRecommendations": true
+  },
+  "postCreateCommand": "dotnet new -i Microsoft.Quantum.ProjectTemplates"
+}
