@@ -1,7 +1,8 @@
 { 
     // Install ESLint and Peacock extensions
     "extensions": [
-      "quantum.quantum-devkit-vscode"
+      "quantum.quantum-devkit-vscode",
+      "ms-dotnettools.csharp"
     ],
 
     
