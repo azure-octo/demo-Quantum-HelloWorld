@@ -6,5 +6,5 @@
   "settings": {
     "extensions.ignoreRecommendations": true
   },
-  "postCreateCommand": "dotnet new -i Microsoft.Quantum.ProjectTemplates"
+  "dockerFile": "mcr.microsoft.com/quantum/iqsharp-base:0.10.2002.2610"
 }
