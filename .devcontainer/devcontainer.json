@@ -6,5 +6,5 @@
   "settings": {
     "extensions.ignoreRecommendations": true
   },
-  "dockerFile": "mcr.microsoft.com/quantum/iqsharp-base:0.10.2002.2610"
+  "image": "mcr.microsoft.com/quantum/iqsharp-base:0.10.2002.2610"
 }
